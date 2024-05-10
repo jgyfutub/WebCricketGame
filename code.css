@@ -1,0 +1,170 @@
+div.first {
+    position:fixed;
+    height: 100px;
+    width: 100px;
+    color: #FFF;
+    background: -moz-radial-gradient( yellow 5%, yellow 15%, black 80%);   
+    background: -webkit-radial-gradient( yellow 5%, yellow 15%, black 80%);
+    background: -ms-radial-gradient( yellow 5%, yellow 15%, black 80%);
+    transform:translate(0px,0px);
+}
+div.second {
+    position:fixed;
+     animation-name: spinaround;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    height: 30px;
+    width: 30px;
+    color: #FFF;
+    background: -moz-radial-gradient(orange 5%, orange 15%, black 60%); 
+    background: -webkit-radial-gradient(orange 5%, orange 15%, black 60%); 
+    background: -ms-radial-gradient(orange 5%, orange 15%,black 60%); 
+    transform:rotate(0deg) translate(0px,0px);
+}
+div.third{position:fixed;
+    animation-name: spinaround1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    height: 30px;
+    width: 30px;
+    color: #FFF;
+    background: -moz-radial-gradient(pink 5%, pink 15%, black 60%); 
+    background: -webkit-radial-gradient(pink 5%,pink 15%, black 60%); 
+    background: -ms-radial-gradient(pink 5%, pink 15%, black 60%); 
+    transform:rotate(0deg) translate(0px,0px);
+    
+}
+div.fourth{position:fixed;
+    animation-name: spinaround2;
+    animation-duration: 3.5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    height: 40px;
+    width: 40px;
+    color: #FFF;
+    background: -moz-radial-gradient(LightBlue 5%, LightBlue 15%, black 60%); 
+    background: -webkit-radial-gradient(LightBlue 5%, LightBlue 15%, black 60%); 
+    background: -ms-radial-gradient(LightBlue 5%, LightBlue 15%, black 60%); 
+    transform:translate(0px,0px);
+    
+}
+div.fifth{position:fixed;
+    animation-name: spinaround3;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+     height: 40px;
+    width: 40px;
+    color: #FFF;
+    background: -moz-radial-gradient(red 5%, red 15%, black 60%); 
+    background: -webkit-radial-gradient(red 5%, red 15%, black 60%); 
+    background: -ms-radial-gradient(red 5%, red 15%, black 60%); 
+    transform:translate(0px,0px);
+    
+}
+div.sixth{position:fixed;
+    animation-name: spinaround4;
+    animation-duration: 4.3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    height: 70px;
+    width: 70px;
+    color: #FFF;
+    background: -moz-radial-gradient(brown 5%, brown 15%, black 60%); 
+    background: -webkit-radial-gradient(brown 5%, brown 15%, black 60%); 
+    background: -ms-radial-gradient(brown 5%, brown 15%, black 60%); 
+    transform:translate(0px,0px);}
+div.seveth
+{position:fixed;
+    animation-name: spinaround5;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    height: 50px;
+    width: 50px;
+    color: #FFF;
+    background: -moz-radial-gradient(violet 5%, violet 15%, black 60%); 
+    background: -webkit-radial-gradient(violet 5%, violet 15%, black 60%); 
+    background: -ms-radial-gradient(violet 5%, violet 15%, black 60%); 
+    transform:translate(0px,0px);
+}
+div.eigth{position:fixed;
+    animation-name: spinaround6;
+    animation-duration: 5.5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+       height: 50px;
+    width: 50px;
+    color: #FFF;
+    background: -moz-radial-gradient(green 5%, green 15%, black 60%); 
+    background: -webkit-radial-gradient(green 5%, green 15%, black 60%); 
+    background: -ms-radial-gradient(green 5%, green 15%, black 60%); 
+    transform:translate(0px,0px);
+    
+}
+div.ninth{position:fixed;
+    animation-name: spinaround7;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    height: 40px;
+    width: 40px;
+    color: #FFF;
+    background: -moz-radial-gradient(grey 5%, grey 15%, black 60%); 
+    background: -webkit-radial-gradient(grey 5%, grey 15%, black 60%); 
+    background: -ms-radial-gradient(grey 5%, grey 15%, black 60%); 
+    transform:translate(0px,0px);
+}
+@keyframes spinaround{
+    from{
+        transform:rotate(0deg) translate(120px);
+    }
+    to{
+       transform:rotate(360deg) translate(120px);}
+}
+@keyframes spinaround1{
+    from{transform:rotate(0deg) translate(200px);}
+    to{transform:rotate(360deg) translate(200px);}
+}
+@keyframes spinaround2{
+    from{transform:rotate(0deg)  translate(270px);}
+    to{transform:rotate(360deg) translate(270px)}
+}
+@keyframes spinaround3{
+    from{transform:rotate(0deg) translate(350px);}
+    to{transform:rotate(360deg) translate(350px)}
+}
+@keyframes spinaround4{
+    from{transform:rotate(0deg) translate(420px);}
+    to{transform:rotate(360deg) translate(420px);}
+}
+@keyframes spinaround5{
+    from{transform:rotate(0deg) translate(500px);}
+    to{transform:rotate(360deg) translate(500px);}
+}
+@keyframes spinaround6{
+    from{transform:rotate(0deg) translate(580px);}
+    to{transform:rotate(360deg) translate(580px);}
+}
+@keyframes spinaround7{
+    from{transform:rotate(0deg) translate(660px);}
+    to{transform:rotate(360deg) translate(660px);}
+}
